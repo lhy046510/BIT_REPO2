@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.bitvod" name="Bitvod" provider-name="yxblog" version="1.0.0">
+  <requires>
+	<import addon="xbmc.gui" version="5.3.0" />
+	<import addon="script.module.xbmcswift2" version="2.4.0" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.script">
+  <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description>Bitvod</description>
+    <description lang="zh">Bitvod</description>
+    <disclaimer>for study!</disclaimer>
+  </extension>
+</addon>
+</addons>
