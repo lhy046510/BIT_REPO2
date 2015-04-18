@@ -16,6 +16,18 @@
   </extension>
 </addon>
 
+<addon id="script.bit.server" name="bitserver" provider-name="BIT" version="0.4">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0" />
+  </requires>
+  <extension library="default.py" point="xbmc.service" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Bit TV Server</summary>
+  </extension>
+</addon>
+
 <addon id="script.module.xbmcswift2" name="xbmcswift2" provider-name="Jonathan Beluch (jbel)" version="2.4.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
